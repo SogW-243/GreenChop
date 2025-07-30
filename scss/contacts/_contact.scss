@@ -1,0 +1,129 @@
+.gc-contact{
+    margin-bottom: 5%;
+    .container{
+        @media (min-width: 344px) {
+            width: 90%;
+        }
+        @media (min-width: 1200px) {
+            width: 70%;
+        }
+        @media (min-width: 1400px) {
+            width: 50%;
+        }
+        .row{
+            .main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .content{
+                    margin-left: 33%;
+                    width: 70%;
+                    @media (min-width: 344px) {
+                        display: none;
+                    }
+                    @media (min-width: 768px) {
+                        display: block;
+                        margin-left: 0;
+                    }
+                    h1{
+                        font-weight: 800;
+                        font-size: 31px;
+                        line-height: 132%;
+                        margin: 3% 0;
+                        color: #2C2C2C;
+                    }
+                    h4{
+                        margin-bottom: 5%;
+                    }
+                    .info{
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                        margin: 10px 0px;
+                        img{
+            
+                        }
+                        span{
+                            font-weight: 600;
+                            color: #2C2C2C;
+                            font-size: 13.33px;
+                            line-height: 20px;
+                        }
+                        p{
+                            margin: 0
+                        }
+                    }
+                    .info3{
+                        @extend .info;
+                        display: flex;
+                        align-items: start;
+                        img{
+                        }
+                    }
+                }
+            }
+            .col-7{
+                .contact-form{
+                    position: relative;
+                    margin-top: 10%;
+                    width: 69%;
+                    @media (min-width: 344px) {
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-top: 10%;
+                    }
+                    h3{
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #2C2C2C  ;
+                        margin-bottom: 10px;
+                    }
+                    .form{
+                        .full{
+                            width: 100%;
+                            height: 44px;
+                            border: 1.5px solid #a3a3a391;
+                            border-radius: 6px;
+                            margin: 10px 0px;
+                            padding: 13px;
+                        }
+                        .info{
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 10px;
+                            .half{
+                                width: 48%;
+                                height: 44px;
+                                border: 1.5px solid #a3a3a391;
+                                border-radius: 6px;
+                                margin: 10px 0px;
+                                padding: 13px;
+                            }
+                        }
+                        .textarea{
+                            border: 1.5px solid #a3a3a391;
+                            width: 100%;
+                            height: 8rem;
+                            border-radius: 6px;
+                            padding: 13px;
+                            margin: 10px 0px;
+                        }
+                    }
+                    button{
+                        position: absolute;
+                        right: 0px;
+                        width: 128px;
+                        height: 46px;
+                        border-radius: 6px;
+                        color: #fff;
+                        background-color: #46B20F;
+                        border: none;
+                        cursor: pointer;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

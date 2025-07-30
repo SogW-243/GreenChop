@@ -1,0 +1,10 @@
+// import parts
+@import 'parts/variable';
+@import 'parts/base';
+@import 'parts/reset';
+
+// import news
+@import 'news/header';
+@import 'news/news';
+@import 'news/popular';
+@import 'news/footer';

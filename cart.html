@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/cart.css">
+        <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+        <link rel="stylesheet" href="css/cart-toggle.css">
+    </head>
+    <body>
+        <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="hidden-desktop col-sm-4">
+                    <div class="header__menu-toggle">
+                        <label for="toggle-menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                    </div><!-- header__menu-toggle -->
+                </div>
+                <div class="col-3 col-sm-8 col-lg-3">
+                    <div class="header-logo">
+                        <a href="./index.html"><img src="images/Logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-12 col-lg-9 header__menu-mobile">
+                    <input type="checkbox" id="toggle-menu">
+                    <div class="header-menu ">
+                        <ul>
+                            <li><a href="./index.html">Trang chủ</a></li>
+                            <li><a href="./greenchop.html">Về Greenchop</a></li>
+                            <li><a href="./products.html">Sản phẩm</a></li>
+                            <li><a href="./news.html">Tin tức</a></li>
+                            <li><a href="./contacts.html">Liên hệ</a></li>
+                            <li>
+                                <a href="./cart.html">
+                                    <span>3</span>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- header-menu -->                      
+                </div><!-- col-7 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </header><!-- header -->    
+        <script src="js/header-menu-toggle.js"></script>
+        <div class="banner">
+            <div class="container">
+                <h3>Trang chủ/ Sản phẩm/ <a href="./products.html">Cart</a></h4>
+            </div><!-- container -->
+        </div><!-- banner -->
+    <!------------------------------------------------------------------>
+    <section class="cart">
+        <div class="container">
+            <h3>Giỏ hàng của bạn</h3>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Sản phẩm</th>
+                    <th>Giá tiền</th>
+                    <th>Số lượng</th>
+                    <th>Tổng giá</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="bgr">
+                            <img src="./images/cart-img.png" alt="">
+                        </div>
+                    </th>
+                    <th><span>Combo - Quán ăn</span> <br> <p>1 Thùng 1000 đôi</p></th>
+                    <th>600.000VNĐ</th>
+                    <th>
+                        <div class="quantity-control">
+                            <div class="decrease-btn"><i class="fa-solid fa-minus"></i></div>
+                            <span>2</span>
+                            <div class="increase-btn"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                    </th>
+                    <th>1.200.000VNĐ</th>
+                    <th>
+                        <div class="icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="bgr">
+                            <img src="./images/cart-img.png" alt="">
+                        </div>
+                    </th>
+                    <th><span>Combo - Gia đình</span> <br> <p>1 Thùng 200 đôi</p></th>
+                    <th>120.000VNĐ</th>
+                    <th>
+                        <div class="quantity-control">
+                            <div class="decrease-btn"><i class="fa-solid fa-minus"></i></div>
+                            <span>1</span>
+                            <div class="increase-btn"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                    </th>
+                    <th>120.000VNĐ</th>
+                    <th>
+                        <div class="icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="bgr">
+                            <img src="./images/cart-img.png" alt="">
+                        </div>
+                    </th>
+                    <th><span>Combo - Quán ăn <br> Nhà hàng</span> <br> <p>1 Thùng 2000 đôi</p></th>
+                    <th>1.200.000VNĐ</th>
+                    <th>
+                        <div class="quantity-control">
+                            <div class="decrease-btn"><i class="fa-solid fa-minus"></i></div>
+                            <span>1</span>
+                            <div class="increase-btn"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                    </th>
+                    <th>1.200.000VNĐ</th>
+                    <th>
+                        <div class="icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </th>
+                </tr><!-- tr -->
+            </table><!-- table -->
+            <a href="./products.html"><button class="btn">Mua thêm</button></a>
+            <div class="bill">
+                <h3>Tổng giỏ hàng</h3>
+                <div class="total-product">
+                    <p>Tổng sản phẩm:</p>
+                    <p>3</p>
+                </div>
+                <div class="total">
+                    <p>Tổng cộng: </p>
+                    <p class="total-price">2.520.000VNĐ</span>
+                </div>
+                <a href="">
+                    <button class="btn-2">
+                        Đặt hàng
+                    </button>
+                </a>
+            </div>
+        </div><!-- container -->
+    </section><!-- cart -->
+    <!---------------------------------------------------------------->
+    <footer class="gc-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-3 col-sm-5 col-md-3 col-lg-3">
+                    <div class="footer-logo">
+                        <img src="./images/logo.png" alt="">
+                        <p>GreenChop là bạn đồng hành <br>của người tiêu dùng</p>
+                    </div>
+                </div>
+                <div class="col col-3 col-sm-7 col-md-3 col-lg-3">
+                    <div class="footer__column1">
+                        <h3>Trang chủ</h3>
+                        <p>Về greenchop</p>
+                        <p>Sản phẩm</p>
+                        <p>Tin tức</p>
+                    </div>
+                </div>
+                <div class="col col-3 col-sm-5 col-md-3 col-lg-3">
+                    <div class="footer__column">
+                        <h3>Hỗ trợ</h3>
+                        <p>Đặt hàng trực tuyến (8h-22h)</p>
+                        <div class="info">
+                            <img src="./images/footer-clock.png" alt="">
+                            <span>Thứ 2 - Thứ 6</span>
+                        </div>
+                        <div class="info2">
+                            <img src="./images/footer-phone.png" alt="">
+                            <span>091 1717 222</span>
+                        </div>
+                    </div><!-- footer__column -->
+                </div>
+                <div class="col col-3 col-sm-7 col-md-3 col-lg-3">
+                    <div class="footer__column3">
+                        <h3>Liên hệ</h3>
+                        <div class="info">
+                            <img src="./images/footer-mail.png" alt="">
+                            <p>greenchopvn@gmail.com</p>
+                        </div>
+                        <div class="info">
+                            <img src="./images/footer-globe.png" alt="">
+                            <p>Greenchop.vn</p>
+                        </div>
+                        <div class="info3">
+                            <img src="./images/footer-map.png" alt="">
+                            <p>428 Điện Biên Phủ, P11, <br>Quận 10, TPHCM</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+        <div class="footer-buttom">
+            <div class="logo">
+                <a href="#"><img src="images/footer-logo.png" alt=""></a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="images/icon-yt.png" alt=""></a>
+                <a href="#"><img src="images/icon-fb.png" alt=""></a>
+                <a href="#"><img src="images/icon-insta.png" alt=""></a>
+                <a href="#"><img src="images/icon-tw.png" alt=""></a>
+            </div>
+        </div>
+    </footer><!-- gc-footer -->
+    <!-------------------------------------------------------->
+    <section class="oder">
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="hero__content col-7 col-sm-12 col-lg-7">
+                        <div class="content">
+                            <h2 class="title1">Nhập thông tin để đặt hàng.</h2>
+                            <p>Bạn muốn mua hàng? Hãy đăng ký vào form này, Greenchop <br> sẽ liên hệ bạn trong thời gian sớm nhất.</p>
+                            <h2 class="combo">Combo - Quán ăn</h2>
+                            <div class="line"></div>
+                            <p class="quantity">1 Thùng 1000 đôi</p>
+                            <h2 class="price">Giá: <span>600.000</span> vnd</h2>
+                            <div class="quantity-control">
+                                <div class="decrease-btn"><i class="fa-solid fa-minus"></i></div>
+                                <span>1</span>
+                                <div class="increase-btn"><i class="fa-solid fa-plus"></i></div>
+                            </div>
+                            <input class="user" type="text">
+                            <div class="content-img__user">
+                                <img src="./images/pup-up__user.png" alt="">
+                                <p>Tên của bạn</p>
+                            </div>
+                            <input class="email" type="text">
+                            <div class="content-img__email">
+                                <img src="./images/pup-up__email.png" alt="">
+                                <p>Email</p>
+                            </div>
+                            <input class="phone" type="text">
+                            <div class="content-img__phone">
+                                <img src="./images/pup-up__phone.png" alt="">
+                                <p>Số điện thoại</p>
+                            </div>
+                            
+                            <div class="info-btn">Gửi</div> 
+
+                        </div><!-- content -->
+                    </div><!-- hero__content -->
+        
+                    <div class="hero__image col-5">
+                        <img class="hero__bg-circle" src="images/hero-background.png" alt="GreenChop">
+                        <img class="hero__chopsticks-1" src="images/hero-img.png" alt="">
+                        <img class="hero__chopsticks-2" src="images/hero-img.png" alt="">
+                        <div class="hero__text-bg">GREEN    <br> CHOP</div>
+                    </div><!-- hero__image -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- hero -->
+        <div class="close"><i class="fa-solid fa-xmark"></i></div>
+    </section><!-- oder -->
+    <!-------------------------------------------------------->
+    <div class="success">
+        <div class="main">
+            <div class="img-success">
+                <img src="./images/pup-up__success.jpg" alt="">
+            </div>
+            <h2>Bạn đã đặt hàng thành công</h2>
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation <br> ullamcorper suscipit lobortis nisl ut aliquip ex ea <br>commodo consequa</p>
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+    </div><!-- success -->
+    <!--------------------------------------------------------> 
+    <script>
+        // Ẩn/hiện thẻ <p> khi người dùng nhập hoặc xóa thông tin trong input.user, input.email, input.phone
+        const userInput = document.querySelector('input.user');
+        const emailInput = document.querySelector('input.email');
+        const phoneInput = document.querySelector('input.phone');
+
+        function togglePDisplay(inputElement, pSelector) {
+            if (!inputElement) return;
+            inputElement.addEventListener('input', () => {
+                const pElement = document.querySelector(pSelector);
+                if (pElement) {
+                    if (inputElement.value.trim() === '') {
+                        pElement.style.display = 'block';
+                    } else {
+                        pElement.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        togglePDisplay(userInput, '.content-img__user p');
+        togglePDisplay(emailInput, '.content-img__email p');
+        togglePDisplay(phoneInput, '.content-img__phone p');
+
+        // Giữ lại sự kiện click cho các thẻ <p> trong content-img__user, email, phone
+        document.querySelectorAll('.content-img__user p, .content-img__email p, .content-img__phone p').forEach(p => {
+            p.addEventListener('click', () => {
+                let input;
+                if (p.parentElement.classList.contains('content-img__user')) {
+                    input = document.querySelector('input.user');
+                } else if (p.parentElement.classList.contains('content-img__email')) {
+                    input = document.querySelector('input.email');
+                } else if (p.parentElement.classList.contains('content-img__phone')) {
+                    input = document.querySelector('input.phone');
+                }
+                if (input) {
+                    input.value = p.textContent;
+                    p.style.display = 'none';
+                }
+            });
+        });
+
+        // Xử lý hiển thị ẩn các section .oder và .success
+        const orderSection = document.querySelector('.oder');
+        const orderBtn = document.querySelector('.btn-2');
+        const successForm = document.querySelector('.success');
+        const infoBtn = document.querySelector('.info-btn');
+        const closeOrderBtns = document.querySelectorAll('.oder .close');
+        const successCloseBtns = document.querySelectorAll('.success .close');
+
+        if (orderBtn && orderSection) {
+            orderBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                orderSection.style.transition = 'opacity 2s ease, transform 2s ease';
+                orderSection.style.display = 'block';
+                setTimeout(() => {
+                    orderSection.classList.add('active');
+                }, 10);
+            });
+        }
+
+        closeOrderBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (orderSection) {
+                    orderSection.classList.remove('active');
+                    setTimeout(() => {
+                        orderSection.style.display = 'none';
+                    }, 200);
+                }
+            });
+        });
+
+        if (infoBtn && successForm && orderSection) {
+            infoBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                // Đảm bảo .success hiển thị block và thêm class active để bật hiệu ứng
+                successForm.style.display = 'block';
+                // Thêm class active để bật hiệu ứng scale và opacity
+                successForm.classList.add('active');
+                // Ép style inline để chắc chắn hiển thị ở giữa màn hình
+                successForm.style.position = 'fixed';
+                successForm.style.top = '50%';
+                successForm.style.left = '50%';
+                successForm.style.transform = 'translate(-50%, -50%) scale(1)';
+                // Ẩn .oder
+                orderSection.classList.remove('active');
+                orderSection.style.display = 'none';
+            });
+        }
+
+        successCloseBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (successForm) {
+                    // Xóa class active để tắt hiệu ứng
+                    successForm.classList.remove('active');
+                    // Sau khi hiệu ứng kết thúc, ẩn display
+                    setTimeout(() => {
+                        successForm.style.display = 'none';
+                    }, 300);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

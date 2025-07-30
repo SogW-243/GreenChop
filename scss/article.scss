@@ -1,0 +1,9 @@
+// import parts
+@import 'parts/variable';
+@import 'parts/base';
+@import 'parts/reset';
+
+// import article
+@import 'article/header';
+@import 'article/article';
+@import 'article/footer';

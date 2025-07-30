@@ -1,0 +1,11 @@
+// import parts
+@import 'parts/variable';
+@import 'parts/base';
+@import 'parts/reset';
+
+// import cart
+@import 'cart/header';
+@import 'cart/cart';
+@import 'cart/oder';
+@import 'cart/success';
+@import 'cart/footer';
