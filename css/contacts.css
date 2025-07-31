@@ -73,19 +73,94 @@ ul, ol {
 }
 @media (min-width: 344px) {
   .header .header-logo {
-    width: 91%;
-    height: 100px;
-    margin-left: 24px;
+    width: 66%;
+    display: flex;
+    align-items: center;
   }
 }
-@media (min-width: 480px) {
+@media (min-width: 370px) {
+  .header .header-logo {
+    width: 58%;
+  }
+}
+@media (min-width: 400px) {
+  .header .header-logo {
+    margin-left: 3%;
+    width: 53%;
+  }
+}
+@media (min-width: 430px) {
+  .header .header-logo {
+    width: 50%;
+  }
+}
+@media (min-width: 460px) {
+  .header .header-logo {
+    width: 46%;
+  }
+}
+@media (min-width: 500px) {
+  .header .header-logo {
+    width: 43%;
+  }
+}
+@media (min-width: 550px) {
   .header .header-logo {
     margin-left: 7%;
+    width: 39%;
+  }
+}
+@media (min-width: 600px) {
+  .header .header-logo {
+    width: 36%;
+  }
+}
+@media (min-width: 630px) {
+  .header .header-logo {
+    width: 34%;
+  }
+}
+@media (min-width: 660px) {
+  .header .header-logo {
+    width: 32%;
+  }
+}
+@media (min-width: 700px) {
+  .header .header-logo {
+    width: 30%;
+  }
+}
+@media (min-width: 768px) {
+  .header .header-logo {
+    width: 28%;
+  }
+}
+@media (min-width: 850px) {
+  .header .header-logo {
+    width: 25%;
+    margin-left: 9%;
+  }
+}
+@media (min-width: 930px) {
+  .header .header-logo {
+    width: 23%;
+    margin-left: 14%;
   }
 }
 @media (min-width: 992px) {
   .header .header-logo {
-    margin-left: 0;
+    width: 57%;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 1200px) {
+  .header .header-logo {
+    width: 49%;
+  }
+}
+@media (min-width: 1400px) {
+  .header .header-logo {
+    width: 50%;
   }
 }
 @media (min-width: 344px) {
@@ -229,7 +304,7 @@ ul, ol {
   align-items: center;
 }
 .banner .container {
-  width: 90%;
+  width: 1130px;
 }
 .banner .container h1 {
   font-weight: 700;
@@ -509,6 +584,16 @@ ul, ol {
 @media (min-width: 992px) {
   .gc-footer .container .footer-logo img {
     margin-top: 24%;
+  }
+}
+@media (min-width: 1200px) {
+  .gc-footer .container .footer-logo img {
+    margin-top: 14%;
+  }
+}
+@media (min-width: 1400px) {
+  .gc-footer .container .footer-logo img {
+    margin-top: 14%;
   }
 }
 .gc-footer .container .footer-logo p {
